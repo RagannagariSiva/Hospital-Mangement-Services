@@ -1,0 +1,27 @@
+# Backend
+backend/target/
+backend/*.log
+backend/.mvn/
+
+# Frontend
+frontend/node_modules/
+frontend/build/
+frontend/.env
+
+# Environment
+.env
+*.env.local
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker volumes
+mysql_data/
+redis_data/
